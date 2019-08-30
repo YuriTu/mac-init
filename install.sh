@@ -29,6 +29,9 @@ sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/
 
 brew install node
 
+# yarn install
+brew install yarn
+
 
 # prepare folders
 mkdir -p ~/workspace/
@@ -36,6 +39,11 @@ mkdir -p ~/0.temp/
 mkdir -p ~/1.work/
 mkdir -p ~/2.github/
 
+
+# git alias
+git config --global alias.st status
+git config --global alias.ci commit
+git config --global alias.br branch
 
  # create ssh
 ssh-keygen
